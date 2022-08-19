@@ -10,8 +10,8 @@ If you do not own a MacBook that is completely fine. However, this means that yo
 
 ### Install node & watchman
 
-brew install node
-brew install watchman
+    brew install node
+    brew install watchman
 
 ### Setting up for iOS Development
 
@@ -27,7 +27,7 @@ To install a simulator, open Xcode > Preferences > Components. Select the simula
 
 #### Install cocoapods
 
-sudo gem install cocoapods
+    sudo gem install cocoapods
 
 Troubleshooting: try upgrading your ruby version to 3.0.1 and install cocoapods again if you have any problems
 
@@ -35,8 +35,8 @@ Troubleshooting: try upgrading your ruby version to 3.0.1 and install cocoapods 
 
 #### Install Java Development Kit
 
-brew tap homebrew/cask-versions
-brew install --cask zulu11
+    brew tap homebrew/cask-versions
+    brew install --cask zulu11
 
 #### Install Android Studio
 
@@ -65,31 +65,43 @@ Finally, click "Apply" to download and install the Android SDK and related build
 
 Add the following lines to your $HOME/.bash_profile or $HOME/.bashrc (if you are using zsh then ~/.zprofile or ~/.zshrc) config file:
 
-export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
-export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
-export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
+    export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
+    export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
+    export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
 
-Type source $HOME/.bash_profile for bash or source $HOME/.zprofile to load the config into your current shell.
+Load the config into your current shell:
+
+    source $HOME/.bash_profile
 
 Verify that ANDROID_SDK_ROOT has been set by running echo $ANDROID_SDK_ROOT and the appropriate directories have been added to your path by running echo $PATH.
 
+
 ### Running this project
 
-npm install - download and install all necessary packages
+Download and install all necessary packages:
+    npm install
 
-npm start - starts the server
+Start the server:
+    npm start
 
-npm run ios - builds on your open iOS simulator
+Build on your open iOS simulator:
+    npm run ios
 
-npm run android - builds on your open android simulator
+Build on your open android simulator:
+    npm run android
+
 
 ### Testing and linting
 
-npm run lint - we are using eslint
+Check your code with eslint:
+    npm run lint
 
-npm run format - autoformats your code using prettier
+Autoformat your code using prettier:
+    npm run format
 
-npm run test - we are using jest
+Run your jest tests:
+    npm run test
+
 
 ## The exercise
 
