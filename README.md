@@ -31,7 +31,8 @@ To install a simulator, open Xcode > Preferences > Components. Select the simula
 
 Troubleshooting: try upgrading your ruby version to 3.0.1 and install cocoapods again if you have any problems
 
- 
+&nbsp;&nbsp;
+
 ### Setting up for Android development
 
 #### Install Java Development Kit
@@ -76,35 +77,44 @@ Load the config into your current shell:
 
 Verify that ANDROID_SDK_ROOT has been set by running echo $ANDROID_SDK_ROOT and the appropriate directories have been added to your path by running echo $PATH.
 
- 
+&nbsp;
+
 ### Running this project
 
 Download and install all necessary packages:
+
     npm install
 
 Start the server:
+
     npm start
 
 Build on your open iOS simulator:
+
     npm run ios
 
 Build on your open android simulator:
+
     npm run android
 
- 
+
 ### Testing and linting
 
 Check your code with eslint:
+
     npm run lint
 
 Autoformat your code using prettier:
+
     npm run format
 
 Run your jest tests:
+
     npm run test
 
 
- 
+&nbsp;
+
 ## The exercise
 
 __Goal:__ Build a magazine home page.
