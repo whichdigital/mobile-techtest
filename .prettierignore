@@ -1,0 +1,7 @@
+.history/
+.husky/
+ios/
+android/
+coverage/
+*.html
+src/assets/lottie/
