@@ -31,13 +31,14 @@ To install a simulator, open Xcode > Preferences > Components. Select the simula
 
 Troubleshooting: try upgrading your ruby version to 3.0.1 and install cocoapods again if you have any problems
 
-
+ 
 ### Setting up for Android development
 
 #### Install Java Development Kit
 
     brew tap homebrew/cask-versions
     brew install --cask zulu11
+
 #### Install Android Studio
 
 Download from here: https://developer.android.com/studio/index.html
@@ -75,7 +76,7 @@ Load the config into your current shell:
 
 Verify that ANDROID_SDK_ROOT has been set by running echo $ANDROID_SDK_ROOT and the appropriate directories have been added to your path by running echo $PATH.
 
-
+ 
 ### Running this project
 
 Download and install all necessary packages:
@@ -90,7 +91,7 @@ Build on your open iOS simulator:
 Build on your open android simulator:
     npm run android
 
-
+ 
 ### Testing and linting
 
 Check your code with eslint:
@@ -103,7 +104,7 @@ Run your jest tests:
     npm run test
 
 
-
+ 
 ## The exercise
 
 __Goal:__ Build a magazine home page.
