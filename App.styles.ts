@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
     container: {
-        marginTop: 72,
+        marginTop: 60,
         paddingHorizontal: 24,
     },
     title: {
@@ -10,11 +10,11 @@ export default StyleSheet.create({
         fontWeight: '600',
     },
     text: {
-        paddingTop: 16,
+        paddingTop: 8,
         fontSize: 18,
     },
     subtitle: {
-        paddingTop: 24,
+        paddingTop: 16,
         fontSize: 18,
         fontWeight: '600',
     },
