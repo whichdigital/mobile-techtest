@@ -1,7 +1,0 @@
-query productsCount($category: [String], $filters: [FilterSegment!]) {
-    count: filterProducts(category: $category, filterQuery: $filters, pageSize: 1) {
-        pagination {
-            totalItemCount
-        }
-    }
-}
