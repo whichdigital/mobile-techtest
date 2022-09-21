@@ -20,6 +20,10 @@ Download and install all necessary packages:
 
     npm install
 
+Install pods:
+
+    npm postinstall
+
 Start the server:
 
     npm start
