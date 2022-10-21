@@ -66,6 +66,8 @@ You do not need to use any additional libraries but if you do, you should be abl
 
 We are not expecting you to include navigation elements as part of this test.
 
+We would like you to use typescript if possible and update the unit tests to reflect your changes.
+
 **Criteria for assessment:**
 
 -   Project layout/structure
