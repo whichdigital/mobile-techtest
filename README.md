@@ -22,7 +22,7 @@ Download and install all necessary packages:
 
 Install pods:
 
-    npm postinstall
+    npm podinstall
 
 Start the server:
 
